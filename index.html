@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+		<h1>Hello world!</h1>
+		<h2>Tip: Check your console</h2>
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker
+						.register('/sw.js')
+						.then((registration) => {
+							console.log('SW registered: ', registration);
+						})
+						.catch((registrationError) => {
+							console.log('SW registration failed: ', registrationError);
+						});
+				});
+			}
+		</script>
+ -->
+<!-- 
+	GOING TO HAVE TO WRITE INSTRUCTIONS SOMEWHERE 
+	<ul class="menu">
+		<li>point on a line</li>
+		<li>point on a II plane</li>
+		<li>2 points on a line</li>
+		<li>2 points on a II plane</li>
+		<li>switch on IO & II</li>
+		<li>non-ideal ralay on IO & II</li>
+	</ul>
+--> 
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Recruitment Demo</title>
+	<!-- <link href="css/dark.css" rel="stylesheet" /> -->
+
+	<!-- My JXG extensions   -->
+	<!-- <script src="dev/Hysteresis/JXG_extension.js"></script> -->
+<script defer src="vendors.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+	<noscript>
+		<h1>Please enable javascript</h1>
+	</noscript>
+	<div id='out-out-panel'>
+		<div class="jxg-div" id="div-out">
+			<div class="jxgbox" id="jxg-pressure-out"></div>			
+		</div>
+		<div class="instructions-panel" id="instructions-panel"></div>
+	</div>
+
+	<div id='main-panel'>
+		<div id="IO-plus-slide">
+			<div class="jxgbox" id="jxg-InOut"></div>
+			<div class="jxgbox" id="jxg-In"></div>
+			<div class="jxg-div" id="div-in">
+				<div class="jxgbox" id="jxg-pressure-in"></div>
+				<div class="jxgbox" id="jxg-volume-in"></div>
+			</div>
+		</div>             
+	</div>
+
+	<div class="settings-panel" id="settings-panel"></div>
+	<!-- <script src="./src/js/app.js"></script>             -->
+</body>
+</html>
