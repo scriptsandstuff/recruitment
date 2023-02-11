@@ -1,0 +1,13 @@
+<svg width="100pc" height="100pc" version="1.1" viewBox="0 0 423.33 423.33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<radialGradient id="radialGradient1479" cx="-110" cy="110" r="200" gradientUnits="userSpaceOnUse">
+			<stop style="stop-color:#0000d2;stop-opacity:.0" offset="0"/>
+			<stop style="stop-color:#0000d2;stop-opacity:.0" offset=".17"/>
+			<stop style="stop-color:#0000d2;stop-opacity:1" offset=".18"/>
+			<stop style="stop-color:#0000d2;stop-opacity:.3" offset="1"/>
+		</radialGradient>
+	</defs>
+	<g  transform="rotate(180, 211.66, 211.66) translate(322.04 96.095)">
+		<path x="30" y="30" d="m-171.65 52.716c25.982-26.794 35.168-43.941 49.087-77.005 3.9971-11.163 8.4817-29.029 9.9978-39.829 2.5853-18.417 2.532-18.121 2.6334-14.578 0.0502 1.7527 0.61882 7.0255 1.2636 11.717 8.2388 59.95 42.347 114.02 93.236 147.8 19.929 13.231 44.323 23.764 68.121 29.417 9.0076 2.1394 25.727 4.7454 31.372 4.89l3.7798 0.0968-4.9137 0.64646c-17.193 2.262-18.258 2.1128-32.136 5.5358-37.309 9.2023-68.756 28.264-99.205 56.012-44.328 41.56-100.28 25.205-123.67 0.48278-35.956-35.68-31.841-91.849 0.43375-125.19z" style="fill:url(#radialGradient1479);opacity:.935"/>
+	</g>
+</svg>
